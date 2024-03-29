@@ -1,0 +1,26 @@
+<div>
+    <div class="client"><span class="first">Client</span> <span class="second"> Testimonials</span></div>
+    <section class="sec">
+      <img src="../../../../assets/laptop.png" />
+      <div class="parent">
+        
+        
+        <div class="scroll-arrow" id="scroll-left" (click)="scrollLeft()">
+          &#8592;
+        </div>
+        
+        <div class="scroll-arrow" id="scroll-right" (click)="scrollRight()">
+          &#8594;
+        </div>
+      </div>
+        <ul id="imgList">
+          @for (item of arr; track $index){
+            
+            <app-carousel-card [flag]="item"></app-carousel-card>
+        }
+          
+        </ul>
+        
+      </section>
+      
+</div>

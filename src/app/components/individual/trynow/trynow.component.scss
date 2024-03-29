@@ -1,0 +1,82 @@
+.sec{
+    color: #5A5A65;
+text-align: center;
+font-family: "Euclid Circular A";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 170%; /* 34px */
+}
+.main{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.first{
+    background: linear-gradient(96deg, #24BEB7 0%, #41E595 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    font-family: Raleway;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -0.88px;
+    }
+    .second{
+    color: #14173C;
+    font-family: Raleway;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -0.88px;
+    }
+    .signup{
+        border:solid 1px #41e595;
+        color: var(--material-theme-white, #FFF);
+font-family: "Euclid Circular A";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    border-radius: 8px;
+    display: flex;
+width: 175px;
+padding: 15px 24px;
+justify-content: center;
+align-items: center;
+gap: 8px; 
+background: linear-gradient(96deg, #24BEB7 0%, #41E595 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    }
+    .bookdemo{
+        border:solid 1px #41e595;
+    margin-right: 2rem;
+        border-radius: 8px;
+background: linear-gradient(96deg, #21ACA6 0%, #37C37E 100%), #FFF;
+display: flex;
+width: 175px;
+padding: 15px 24px;
+justify-content: center;
+align-items: center;
+color: #FFF;
+font-family: "Euclid Circular A";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+gap: 8px;
+    }
+    .buttons{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .parent{
+        padding: 100px 213px;
+    }

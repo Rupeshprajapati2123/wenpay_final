@@ -1,0 +1,78 @@
+
+.sec-main{
+    display: flex;
+    background-color: #fff;
+    padding: 40px;
+    justify-content: space-around;
+}
+.up{
+    text-align: center;
+}
+.info{
+    color: #5A5A65;
+text-align: center;
+font-family: "Euclid Circular A";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 170%; /* 27.2px */
+}
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 91px;
+}
+.cardd{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.title{
+color: #14173C;
+text-align: center;
+font-family: Raleway;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.32px;
+}
+.para{
+    color: var(--material-theme-ref-neutral-neutral87, #D8DBD9);
+text-align: center;
+font-family: "Euclid Circular A";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 170%; 
+margin-bottom: 4rem;
+}
+.main{
+    height: 938px;
+    background-color: #080918;
+    padding: 180px 120px;
+}
+.our{
+    color: var(--material-theme-ref-neutral-neutral92, #E6E9E7);
+font-family: Raleway;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.64px;
+}
+.services{
+    color: #14173C;
+    background: linear-gradient(90deg, #EE0978 0%, #F63543 50.41%, #FF6702 100%);
+    -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text; 
+font-family: Raleway;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.64px;
+}

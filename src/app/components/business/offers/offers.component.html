@@ -1,0 +1,10 @@
+<div class="main">
+    <p><span class="first">What We</span> <span class="second"> Offer</span></p>
+    <p class="para">Wenpay provides the platform and infrastructure for SMEs in Sub Saharan Africa<br> to scale and do business globally, one payment at a time.</p>
+    
+    <div class="flex">
+        @for (item of arr; track $index){
+            <app-card [item]="item"></app-card>
+        }
+    </div>
+</div>

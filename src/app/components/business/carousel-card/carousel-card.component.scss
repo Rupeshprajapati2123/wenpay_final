@@ -1,0 +1,98 @@
+.card-white{
+    width: 400px;
+    height: 378px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 66px;
+    padding-bottom: 124px;
+    margin-right: 4rem;
+    background: #24BEB7;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+.card-green{
+    width: 400px;
+    height: 378px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 66px;
+    padding-bottom: 124px;
+    margin-right: 4rem;
+    background: #24BEB7;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .circle {
+    width: 64px;
+    height: 64px;
+    left: 32px;
+    top: 32px;
+   
+  }
+  
+  .circle div {
+    width: 46px;
+    height: 38.48px;
+    left: 7px;
+    top: 15px;
+    
+    background: rgba(255, 255, 255, 0.25);
+  }
+  
+  .content {
+   
+    color: white;
+    font-size: 18px;
+    font-family: Euclid Circular A;
+    font-weight: 500;
+    line-height: 32.40px;
+    word-wrap: break-word;
+  }
+  
+  .details {
+    width: 336px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    left: 32px;
+    top: 382px;
+    border-top: 0.50px rgba(255, 255, 255, 0.30) solid;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    display: inline-flex;
+  }
+  
+  .avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 9999px;
+  }
+  .description{
+    margin-bottom: 9rem;
+  }
+  .info {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: inline-flex;
+  }
+  
+  .name {
+    color: white;
+    font-size: 14px;
+    font-family: Euclid Circular A;
+    font-weight: 600;
+    line-height: 25.20px;
+    word-wrap: break-word;
+  }
+  
+  .designation {
+    color: white;
+    font-size: 14px;
+    font-family: Euclid Circular A;
+    font-weight: 300;
+    line-height: 25.20px;
+    word-wrap: break-word;
+  }
+  

@@ -1,0 +1,73 @@
+.first{
+    color: var(--material-theme-white, #FFF);
+font-family: Raleway;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.56px;
+}
+.second{
+    background: linear-gradient(90deg, #EE0978 0%, #F63543 50.41%, #FF6702 100%);
+    -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text; 
+            font-family: Raleway;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.56px;
+}
+.main{
+    background:url('../../../../assets/back2.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    bottom: -180px;
+    left: calc(50% - 683px);
+    align-items: center;
+        height: 342px;
+        width: 1366px;
+        background-color: black;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+
+}
+.signup{
+    color: var(--material-theme-white, #FFF);
+font-family: "Euclid Circular A";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border-radius: 8px;
+display: flex;
+margin-right: 2rem;
+width: 175px;
+padding: 15px 24px;
+justify-content: center;
+align-items: center;
+gap: 8px; 
+background: linear-gradient(90deg, #EE0978 0%, #F63543 50.41%, #FF6702 100%), #FFF;
+}
+.bookdemo{
+    background: linear-gradient(90deg, #EE0978 0%, #F63543 50.41%, #FF6702 100%);
+-webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+font-family: "Euclid Circular A";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    display: flex;
+width: 175px;
+padding: 15px 24px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 8px;
+border: 1px solid #EE0978;
+}
