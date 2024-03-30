@@ -55,6 +55,12 @@ align-items: center;
 gap: 8px; 
 background: linear-gradient(96deg, #21ACA6 0%, #37C37E 100%), #FFF;
 }
+.signup:hover{
+    
+    background: linear-gradient(90deg, #EE0978 0%, #F63543 50.41%, #FF6702 100%);
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
 .bookdemo{
     color: #21ac16;
     background: #FFF;
@@ -72,3 +78,32 @@ gap: 8px;
 border-radius: 8px;
 border: 1px solid #21ac16;
 }
+@media screen and (max-width: 1200px) {
+    .second{
+        font-size: 2rem;
+    }
+    .first{
+        font-size: 2rem;
+    }
+    .main{
+        width: 70vw;
+        left: calc(50% - 35vw);
+    }
+    .contain{
+        margin-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .bookdemo{
+        width: 7rem;
+        font-size: 0.75rem;
+    }
+    .signup{
+        width: 7rem;
+        font-size: 0.75rem;
+    }
+    svg{
+        display: none;
+    }
+  }

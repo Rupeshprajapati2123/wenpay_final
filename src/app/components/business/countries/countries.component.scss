@@ -1,51 +1,262 @@
-.main-div{
-display: flex;
-padding: 2.5rem 5rem;
-background-color: #080918;
-justify-content: space-around;
-align-items: center;
-flex-wrap: wrap;
+.main{
+    // background: url('../../../../assets/green-map.png');
+    background-color: #070925;
+    display: flex;
+  }
+  .back{
+background-color: #070925;
 }
-.countries{
-    color: var(--material-theme-ref-neutral-neutral87, #D8DBD9);
-font-family: Raleway;
-margin-right: 5rem;
-font-size: 1.5rem;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: -0.015rem;
+.left{
+    padding-left: 12rem;
+    padding-top: 12rem;
+}
+.second{
+    height: 43.25rem;
+    width: 45rem;
+    background-color: #fff;
+    margin-top: 8rem;
+    margin-right: 180px;
+    margin-left: 4rem;
 }
 .title{
-    color: var(--material-theme-ref-neutral-neutral90, #E0E3E2);
+    // Send Money In a Heartbeat
+color: white;
+font-size: 80px;
 font-family: Raleway;
-font-size: 0.875rem;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-letter-spacing: -0.00875rem;
+font-weight: 700;
+word-wrap: break-word
 }
-.divv{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 1rem 2rem;
-    margin-right: 1.5rem;
-    border-radius: 0.5rem;
-background: rgba(255, 255, 255, 0.2);
+.but{
+    padding-left: 24px; padding-right: 24px; padding-top: 19px; padding-bottom: 19px; background: #070925; border-radius: 8px; justify-content: center; align-items: center; gap: 8px; display: inline-flex
 }
-.first-div{
+.text{
+    color: white; font-size: 16px; font-family: Euclid Circular A; font-weight: 500; word-wrap: break-word
+}
+.info{
+
+color: white;
+font-size: 22px;
+font-family: Euclid Circular A;
+font-weight: 400;
+line-height: 37.40px;
+word-wrap: break-word
+}
+
+.flex{
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
     
+font-family: Euclid Circular A;
+    padding: 1rem 4rem;
 }
-.second-div{
+.container {
+    
+    padding: 21.51px 35.85px;
+    background: #c9c9cb37;
+    border-radius: 7.17px;
+    margin: 0 1.5rem;
+    border: 0.45px rgba(255, 240, 230, 0.5) solid;
+    margin-top: 3rem;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-}
-.img{
-    border-radius: 50%;
-    width: 2.5rem;
-    height: 2.5rem;
-}
+  }
+  .red{
+    background-color: red;;
+  }
+  .receiver-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10.75px;
+  }
+  
+  .receiver-text {
+    text-align: center;
+    color: #070925;
+    font-size: 17.92px;
+    font-family: Raleway;
+    font-weight: 600;
+    word-wrap: break-word;
+  }
+  
+  .receiver-amount {
+    text-align: center;
+    color: #C9C9CB;
+    font-size: 35.85px;
+    font-family: 'Red Rose';
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  
+  .currency-info {
+    height: 3rem;
+    padding: 1rem;
+    background: #070925;
+    border-radius: 3.58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 7.17px;
+  }
+  
+  .currency-icon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 3.58px;
+    height: 21.51px;
+  }
+  
+  .icon-part {
+    width: 8.36px;
+    height: 15.53px;
+  }
+  
+  .green {
+    background: #009A49;
+  }
+  
+  .white {
+    background: #EEEEEE;
+  }
+  .receiver-input {
+    color: #C9C9CB;
+    font-size: 35.85px;
+    font-family: 'Red Rose';
+    font-weight: 400;
+    word-wrap: break-word;
+    border: none;
+    background: transparent;
+    outline: none;
+  }
+  
+  .receiver-input::placeholder {
+    color: #C9C9CB;
+  }
+  .currency-text {
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    font-family: Raleway;
+    font-weight: 600;
+    word-wrap: break-word;
+  }
+  
+  .arrow-icon {
+    width: 21.51px;
+    height: 21.51px;
+    position: relative;
+  }
+  
+  .arrow-icon::before {
+    content: "";
+    width: 7.17px;
+    height: 3.58px;
+    background: white;
+    position: absolute;
+    left: 7.17px;
+    top: 8.96px;
+  }
+
+  //countires
+
+  .main-div{
+    display: flex;
+    padding: 2.5rem ;
+    justify-content: space-around;
+    align-items: center;background-color: #080918;
+    }
+    .countries{
+        color: var(--material-theme-ref-neutral-neutral87, #D8DBD9);
+    font-family: Raleway;
+    margin-right: 5rem;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.015rem;
+    }
+    .titlee{
+        color: var(--material-theme-ref-neutral-neutral90, #E0E3E2);
+    font-family: Raleway;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.00875rem;
+    }
+    .divv{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 1rem 2rem;
+        margin-right: 1.5rem;
+        border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    }
+    .countries{
+      text-align: center
+    }
+    .first-div{
+        display: flex;
+        align-items: center;
+        
+    }
+    .second-div{
+        display: flex;
+        align-items: center;
+    }
+    .img{
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+    }
+    .country{
+      display: flex;
+    }
+    @media screen and (max-width: 1200px) {
+      .main{
+        flex-direction: column;
+      }
+      .left{
+        padding: 4rem ;
+      }
+      .first-div{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .second-div{
+        margin: 1rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .second{
+        margin: 1rem;
+        width: 85vw;
+      }
+      .countries{
+        margin: 0;
+      }
+      .main-div{
+        flex-direction: column;
+      }
+      .divv{
+        padding: 1.5rem;
+        margin: 1rem;
+      }
+      .currency-info{
+        display: none;
+      }
+      .title{
+        font-size: 4rem;
+      }
+      br{
+        display: none;
+      }
+    }

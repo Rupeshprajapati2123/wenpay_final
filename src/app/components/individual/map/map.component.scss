@@ -14,8 +14,8 @@
     padding-top: 12rem;
 }
 .second{
-    height: 700px;
-    width: 720px;
+    height: 43.25rem;
+    width: 45rem;
     background-color: #fff;
     margin-top: 8rem;
     margin-right: 180px;
@@ -44,9 +44,7 @@ font-weight: 400;
 line-height: 37.40px;
 word-wrap: break-word
 }
-input{
-    border: solid 1px red;
-}
+
 .flex{
     display: flex;
     justify-content: space-between;
@@ -97,8 +95,8 @@ font-family: Euclid Circular A;
   }
   
   .currency-info {
-    height: 50.18px;
-    padding: 14.34px;
+    height: 3rem;
+    padding: 1rem;
     background: #070925;
     border-radius: 3.58px;
     display: flex;
@@ -144,7 +142,7 @@ font-family: Euclid Circular A;
   .currency-text {
     text-align: center;
     color: white;
-    font-size: 17.92px;
+    font-size: 1rem;
     font-family: Raleway;
     font-weight: 600;
     word-wrap: break-word;
@@ -203,6 +201,9 @@ font-family: Euclid Circular A;
         border-radius: 8px;
     background: rgba(255, 255, 255, 0.2);
     }
+    .countries{
+      text-align: center
+    }
     .first-div{
         display: flex;
         align-items: center;
@@ -216,4 +217,49 @@ font-family: Euclid Circular A;
         border-radius: 50%;
         width: 40px;
         height: 40px;
+    }
+    .country{
+      display: flex;
+    }
+    @media screen and (max-width: 1200px) {
+      .main{
+        flex-direction: column;
+      }
+      .left{
+        padding: 4rem ;
+      }
+      .first-div{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .second-div{
+        margin: 1rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .second{
+        margin: 1rem;
+        width: 85vw;
+      }
+      .countries{
+        margin: 0;
+      }
+      .main-div{
+        flex-direction: column;
+      }
+      .divv{
+        padding: 1.5rem;
+        margin: 1rem;
+      }
+      .currency-info{
+        display: none;
+      }
+      .title{
+        font-size: 4rem;
+      }
+      br{
+        display: none;
+      }
     }

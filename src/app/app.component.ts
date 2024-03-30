@@ -13,11 +13,12 @@ import { FirmsComponent } from './components/business/firms/firms.component';
 import { CarouselCardComponent } from './components/business/carousel-card/carousel-card.component';
 import { HomeComponent } from './components/individual/home/home.component';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule,RouterOutlet,HeaderComponent,HomeComponent,TrynowComponent,TestimonialsComponent, FooterComponent,CountriesComponent,MapComponent,StartedComponent,OurservicesComponent,OffersComponent,FirmsComponent,CarouselCardComponent],
+  imports: [FormsModule,CommonModule,RouterOutlet,HeaderComponent,HomeComponent,TrynowComponent,TestimonialsComponent, FooterComponent,CountriesComponent,MapComponent,StartedComponent,OurservicesComponent,OffersComponent,FirmsComponent,CarouselCardComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

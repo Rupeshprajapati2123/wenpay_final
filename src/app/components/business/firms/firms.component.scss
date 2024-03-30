@@ -44,3 +44,11 @@ h1{
     0% { transform: translateX(100%); }
     100% { transform: translateX(-100%); }
   }
+  @media screen and (max-width: 1200px) {
+  .firms{
+    padding: 0;
+  }
+  .main{
+    margin: 2rem;
+  }
+  }

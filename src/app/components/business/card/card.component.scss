@@ -1,6 +1,6 @@
 .img{
-    width: 305px;
-    height: 260px;
+    width: 19rem;
+    height: 16rem;
     // margin-right: 30px;
    
 }
@@ -24,8 +24,22 @@ letter-spacing: -0.28px;
 .main-div{
     display: flex;
     width: 100%;
-    // border: 1px solid red;
     gap: 24px;
     flex-shrink: 0;
-    // margin-right: 96px;
 }
+@media screen and (max-width: 1200px) {
+   .img{
+   width: 14rem;
+   height: 8rem;
+}
+.main-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.4rem;
+    flex-direction: column;
+    background: rgba(131, 131, 131, 0.082);
+    padding: 1rem;
+   }
+   
+  }
