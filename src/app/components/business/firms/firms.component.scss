@@ -17,6 +17,8 @@ text-align: center;
 }
 h1{
    margin-right: 103px; 
+   font-family: Raleway;
+   font-weight: 900;
 }
 .main{
     margin-top: 72px;
@@ -24,3 +26,21 @@ h1{
     margin-right:212px;
     margin-left:212px;
 }
+
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+  }
+  
+  .marquee h1 {
+    display: inline-block;
+    padding-right: 20px;
+    animation: marquee 10s linear infinite;
+  }
+  
+  @keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }

@@ -9,19 +9,30 @@ import { CarouselCardComponent } from '../carousel-card/carousel-card.component'
   styleUrl: './testimonials.component.scss'
 })
 export class TestimonialsComponent {
-  arr=[{"id":"0"},{"id":"1"},{"id":"2"},{"id":"3"}];
-  flag=0;
+  activeCardIndex = 0; 
+
   scrollRight() {
     const imgList = document.getElementById('imgList');
     if (imgList) {
       imgList.scrollBy(600, 0);
+      this.updateActiveCardIndex(1); 
     }
   }
+
   scrollLeft() {
     const imgList = document.getElementById('imgList');
     if (imgList) {
       imgList.scrollBy(-750, 0);
+      this.updateActiveCardIndex(-1); 
     }
   }
-  
+
+  updateActiveCardIndex(change: number) {
+    const totalCards = 5; 
+    this.activeCardIndex = (this.activeCardIndex + change + totalCards) % totalCards;
+  }
+
+  isCardActive(index: number): boolean {
+    return index === this.activeCardIndex;
+  }
 }

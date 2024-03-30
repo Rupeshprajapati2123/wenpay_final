@@ -18,7 +18,7 @@
     padding-top: 66px;
     padding-bottom: 124px;
     margin-right: 4rem;
-    background: #24BEB7;
+    background: rgba(209, 209, 218, 0.15);
     border-radius: 8px;
     overflow: hidden;
   }
@@ -40,7 +40,7 @@
     background: rgba(255, 255, 255, 0.25);
   }
   
-  .content {
+  .content-white{
    
     color: white;
     font-size: 18px;
@@ -49,14 +49,31 @@
     line-height: 32.40px;
     word-wrap: break-word;
   }
+  .content-black{
+   
+    color: #181b48;
+    font-size: 18px;
+    font-family: Euclid Circular A;
+    font-weight: 500;
+    line-height: 32.40px;
+    word-wrap: break-word;
+  }
   
-  .details {
+  .details-white {
     width: 336px;
     padding-top: 24px;
     padding-bottom: 24px;
-    left: 32px;
-    top: 382px;
     border-top: 0.50px rgba(255, 255, 255, 0.30) solid;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    display: inline-flex;
+  }
+  .details-black {
+    width: 336px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-top: 0.50px rgba(209, 209, 218, 0.711) solid;
     justify-content: flex-start;
     align-items: center;
     gap: 12px;
@@ -78,21 +95,6 @@
     display: inline-flex;
   }
   
-  .name {
-    color: white;
-    font-size: 14px;
-    font-family: Euclid Circular A;
-    font-weight: 600;
-    line-height: 25.20px;
-    word-wrap: break-word;
-  }
   
-  .designation {
-    color: white;
-    font-size: 14px;
-    font-family: Euclid Circular A;
-    font-weight: 300;
-    line-height: 25.20px;
-    word-wrap: break-word;
-  }
   
+ 

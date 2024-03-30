@@ -3,10 +3,11 @@
     display: flex;
   }
   .back{
-  // height: 970px;
+
+    background: url('../../../../assets/green-map.png');
   background-size: cover;
   background-position: center;
-  background: url('../../../../assets/green-map.png');
+  
 }
 .left{
     padding-left: 12rem;

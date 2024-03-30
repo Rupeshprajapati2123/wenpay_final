@@ -6,20 +6,25 @@
         
         
         <div class="scroll-arrow" id="scroll-left" (click)="scrollLeft()">
-          &#8592;
+          <span class="material-symbols-outlined">
+            east
+            </span>
         </div>
         
         <div class="scroll-arrow" id="scroll-right" (click)="scrollRight()">
-          &#8594;
+          <span class="material-symbols-outlined">
+            west
+            </span>
         </div>
       </div>
-        <ul id="imgList">
-          @for (item of arr; track $index){
-            
-            <app-carousel-card [flag]="item"></app-carousel-card>
-        }
-          
-        </ul>
+      <ul id="imgList">
+        <app-carousel-card [flag]="isCardActive(0)"></app-carousel-card>
+        <app-carousel-card [flag]="isCardActive(1)"></app-carousel-card>
+        <app-carousel-card [flag]="isCardActive(2)"></app-carousel-card>
+        <app-carousel-card [flag]="isCardActive(3)"></app-carousel-card>
+        <app-carousel-card [flag]="isCardActive(4)"></app-carousel-card>
+      </ul>
+      
         
       </section>
       

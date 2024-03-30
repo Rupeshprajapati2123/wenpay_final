@@ -4,17 +4,26 @@ section {
   }
   .sec{
     display: flex;
+
   }
-  
-  .parent{
+  .sec ::-webkit-scrollbar{
+    display: none;
+  }
+  .sec{
     position: relative;
   }
+  // .parent{
+  //   position: relative;
+  //   display: flex;
+  //   background-color: red;
+  // }
   .scroll-arrow {
     width: 10%;
     display: inline-block;
     position: absolute;
     z-index: 1000;
     bottom: 0px;
+    margin-right: 1rem;
     left: -60px;
     vertical-align: middle;
     cursor: pointer;

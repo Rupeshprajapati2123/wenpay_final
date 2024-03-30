@@ -1,5 +1,6 @@
+
 <app-header (valueChange)="onValueChange($event)"></app-header>
-<div *ngIf="valueFromHeader === 1">
+<div *ngIf="valueFromHeader === 0">
     
     <app-trynow></app-trynow>
     <app-firms></app-firms>
@@ -10,7 +11,7 @@
     <app-testimonials></app-testimonials>
     <app-started></app-started>
   </div>
-  <div *ngIf="valueFromHeader === 0">
+  <div *ngIf="valueFromHeader === 1">
     <app-home></app-home>
   </div>
   <app-footer></app-footer>

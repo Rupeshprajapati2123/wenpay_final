@@ -44,7 +44,7 @@ font-weight: 500;
 line-height: normal;
     border-radius: 8px;
     display: flex;
-width: 175px;
+width: 220px;
 padding: 15px 24px;
 justify-content: center;
 align-items: center;
@@ -55,7 +55,7 @@ background-clip: text;
 -webkit-text-fill-color: transparent;
     }
     .bookdemo{
-        border:solid 1px #41e595;
+        border:0;
     margin-right: 2rem;
         border-radius: 8px;
 background: linear-gradient(96deg, #21ACA6 0%, #37C37E 100%), #FFF;
@@ -71,6 +71,10 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 gap: 8px;
+    }
+    .bookdemo :hover{
+        transform: translateY(10px);
+        background: linear-gradient(90deg, #EE0978 0%, #F63543 50.41%, #FF6702 100%), #FFF;
     }
     .buttons{
         display: flex;

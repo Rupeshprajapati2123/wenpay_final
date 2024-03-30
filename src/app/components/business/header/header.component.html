@@ -1,23 +1,32 @@
 <div class="header-main">
     <div class="first-div">
-        
-        <img class="img" src="assets/logo.png" />
-        <button [class.indi]="value === 0 ? true : false" [class.business]="value === 1 ? true : false" (click)="handleChange()">Individual</button>
-        <button [class.business]="value === 0 ? true : false" [class.indi]="value === 1 ? true : false" (click)="handlesecondchange()">Business</button>
-        
-    </div>
-    <div >
-        <ul class="mid-div">
-            <li>Home</li>
-            <li>Features</li>
-            <li>Services</li>
-            <li>Testimonials</li>
-            <li>blog</li>
-        </ul>
-    </div>
-    <div class="third-div">
-        <button class="indi">Login</button>
-        <button [textContent]="value === 1 ? 'Contact Sales' : 'Register'" class="businesss"></button>
 
+        <img class="img" src="assets/logo.png" />
+        <button [class.indi]="value === 0 ? true : false" [class.business]="value === 1 ? true : false"
+            (click)="handleChange()">Individual</button>
+        <button [class.business]="value === 0 ? true : false" [class.indi]="value === 1 ? true : false"
+            (click)="handlesecondchange()">Business</button>
+
+    </div>
+    <div class="mob-no">
+        <div>
+            <ul class="mid-div">
+                <li>Home</li>
+                <li>Features</li>
+                <li>Services</li>
+                <li>Testimonials</li>
+                <li>blog</li>
+            </ul>
+        </div>
+        <div class="third-div">
+            <button class="indi">Login</button>
+            <button [textContent]="value === 1 ? 'Contact Sales' : 'Register'" class="businesss"></button>
+
+        </div>
+    </div>
+    <div class="mob-nav">
+        <span class="material-symbols-outlined">
+            menu
+            </span>
     </div>
 </div>

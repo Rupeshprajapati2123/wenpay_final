@@ -1,69 +1,109 @@
-.first-div{
+.first-div {
     display: flex;
 }
-.img{
+
+.img {
     margin-right: 1.125rem;
 }
-li{
+
+li {
     list-style: none;
     color: var(--material-theme-ref-neutral-neutral60, #8E9190);
-font-family: "Euclid Circular A";
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-right: 3rem;
-cursor: pointer;
+    font-family: "Euclid Circular A";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 3rem;
+    cursor: pointer;
 }
-.mid-div{
+
+.mid-div {
     display: flex;
 
 }
-.header-main{
+.mob-nav{
+    display: none;
+}
+.header-main {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 24px 80px;
 }
-.indi{
+
+.mob-no {
+    // background-color: red;
+    display: flex;
+    gap: 16.67vw;
+    justify-content: space-between;
+}
+
+.indi {
     color: var(--material-theme-ref-neutral-neutral60, #8E9190);
-font-family: "Euclid Circular A";
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-background-color: #fff;
-border: 0;
+    font-family: "Euclid Circular A";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #fff;
+    border: 0;
 }
-.business{
+
+.business {
     padding: 12px 8px;
-justify-content: center;
-align-items: center;
-gap: 8px; 
-border-radius: 8px;
-color: var(--material-theme-white, #FFF);
-font-family: "Euclid Circular A";
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-background: #181B48;
-margin-left: 1.5rem;
-margin-right: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    color: var(--material-theme-white, #FFF);
+    font-family: "Euclid Circular A";
+    font-size: 14px;
+    font-style: normal;
+    border: 0;
+    font-weight: 500;
+    line-height: normal;
+    background: #181B48;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
-.businesss{
+
+.businesss {
     padding: 15px 24px;
-justify-content: center;
-align-items: center;
-gap: 8px; 
-border-radius: 8px;
-color: var(--material-theme-white, #FFF);
-font-family: "Euclid Circular A";
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-background: #181B48;
-margin-right: 1.5rem;
-margin-left: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: 0;
+    color: var(--material-theme-white, #FFF);
+    font-family: "Euclid Circular A";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: #181B48;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.third-div {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+
+@media screen and (max-width:1200px) {
+    .header-main {
+        padding: 24px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+
+    .mob-no {
+        display: none;
+    }
+    .mob-nav{
+        display: block;
+    }
 }
