@@ -21,7 +21,7 @@
 }
 
 .main {
-    background: url('../../../../assets/back2.png');
+    background: url('../../../../assets/images/back2.png');
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -91,6 +91,7 @@
     .main{
         width: 70vw;
         left: calc(50% - 35vw);
+        padding-left: 2rem;
     }
     .contain{
         margin-bottom: 1rem;

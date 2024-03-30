@@ -1,23 +1,24 @@
 <div class="header-main">
     <div class="first-div">
-      <img class="img" src="assets/logo.png" />
+      <img class="img" src="assets/images/logo.png" />
       <button [class.indi]="value === 0 ? true : false" [class.business]="value === 1 ? true : false" (click)="handleChange()">Individual</button>
       <button [class.business]="value === 0 ? true : false" [class.indi]="value === 1 ? true : false" (click)="handlesecondchange()">Business</button>
     </div>
   
     <div [ngClass]="{'mobile-nav': isMobileNavOpen, 'mid-div': !isMobileNavOpen}">
       <ul class="divv">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
-        <li><a href="#blog">Blog</a></li>
+        <li ><a href="#home">Home</a></li>
+        <li><a href="#map" >Features </a></li>
+        <li><a href="#services" >Services</a></li>
+        <li><a href="#testimonials"> Testimonials </a></li>
+        <li>Blog</li>
+        <div class="mobile-buttons" *ngIf="isMobileNavOpen">
+          <button class="indi">Login</button>
+          <button [textContent]="value === 1 ? 'Contact Sales' : 'Register'" class="businesss"></button>
+        </div>
       </ul>
   
-      <div class="mobile-buttons" *ngIf="isMobileNavOpen">
-        <button class="indi">Login</button>
-        <button [textContent]="value === 1 ? 'Contact Sales' : 'Register'" class="businesss"></button>
-      </div>
+      
     </div>
   
     <div class="third-div">

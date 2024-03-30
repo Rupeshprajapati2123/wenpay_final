@@ -2,10 +2,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @font-face {
     font-family: "Euclid Circular A";
-    src: url('../assets/Euclid\ Circular\ A\ Regular.ttf');
+    src: url('../assets/fonts/Euclid\ Circular\ A\ Regular.ttf');
 }
 
+html{
+    scroll-behavior: smooth;
+}
